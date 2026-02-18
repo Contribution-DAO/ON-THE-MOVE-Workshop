@@ -60,6 +60,10 @@ https://code.visualstudio.com/
 Follow the official guide:  
 https://docs.sui.io/guides/developer/getting-started/sui-install
 
+#### Node.js
+- Install **Node.js (version 18 or later recommended)**  
+https://nodejs.org/
+
 ---
 
 ## Important Notes
