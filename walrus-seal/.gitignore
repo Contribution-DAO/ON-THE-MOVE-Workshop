@@ -1,0 +1,88 @@
+# =========================
+
+# Node.js
+
+# =========================
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# =========================
+
+# Build / Output
+
+# =========================
+
+dist/
+build/
+out/
+coverage/
+*.tsbuildinfo
+
+# =========================
+
+# Environment (IMPORTANT)
+
+# =========================
+
+.env
+.env.*
+!.env.example
+
+# =========================
+
+# Logs
+
+# =========================
+
+logs/
+*.log
+
+# =========================
+
+# OS
+
+# =========================
+
+.DS_Store
+Thumbs.db
+
+# =========================
+
+# Editor / IDE
+
+# =========================
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+
+# Sui / Crypto / Keys (extra safety)
+
+# =========================
+
+*.key
+*.pem
+*.secret
+wallet.json
+keystore/
+sui_config/
+
+# =========================
+
+# Temporary files
+
+# =========================
+
+tmp/
+temp/
+*.tmp
