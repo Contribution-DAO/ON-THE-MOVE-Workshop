@@ -6,7 +6,8 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "main": "npx tsx main.ts"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +15,7 @@
   "description": "",
   "type": "module",
   "devDependencies": {
+    "@mysten/seal": "^1.1.0",
     "@mysten/sui": "^2.4.0",
     "@mysten/walrus": "^1.0.3",
     "@types/node": "^25.3.0",
