@@ -1,0 +1,24 @@
+{
+  "name": "sui-chat-cli",
+  "version": "1.0.0",
+  "description": "Encrypted CLI chatroom on Sui (Seal + Walrus) with a Groq AI bot",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "bot": "tsx src/bot/bot.ts"
+  },
+  "dependencies": {
+    "@mysten/messaging": "^0.3.0",
+    "@mysten/seal": "^0.9.6",
+    "@mysten/sui": "^1.45.2",
+    "chalk": "^5.4.0",
+    "commander": "^13.1.0",
+    "dotenv": "^16.4.0",
+    "groq-sdk": "^1.1.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.12.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}
