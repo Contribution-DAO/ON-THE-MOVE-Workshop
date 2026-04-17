@@ -4,7 +4,6 @@ Encrypted CLI chatroom built on the **Sui Stack Messaging SDK**, with an **AI bo
 
 - Messages are **end-to-end encrypted** via **Seal**
 - Stored on the **Sui blockchain** (testnet)
-- Attachments live on **Walrus** decentralized storage
 - Bot auto-replies using **Llama 3.3 70B** via Groq
 
 ## Stack
