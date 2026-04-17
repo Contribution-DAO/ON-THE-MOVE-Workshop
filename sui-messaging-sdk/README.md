@@ -19,15 +19,7 @@ Encrypted CLI chatroom built on the **Sui Stack Messaging SDK**, with an **AI bo
 
 ## Setup
 
-### 1. Install
-
-```bash
-git clone <repo-url>
-cd sui-chat-cli
-npm install
-```
-
-### 2. Configure environment
+### Configure environment
 
 ```bash
 cp .env.example .env
